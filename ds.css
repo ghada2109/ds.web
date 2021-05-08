@@ -1,0 +1,32 @@
+input{
+    padding: 5px 15px;
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-right: none;
+  
+}
+
+input[type=color]{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #bbb;
+    margin: .4rem;
+    
+  }
+ input[type=number]{
+    border-right: 1px solid #bbb;
+    transform:translate(60%,-130%);
+  }
+  select{
+    display:block;  
+    margin-top:10px;
+    margin-bottom:5px;
+    border:1px solid lightslategray;
+    block-size: 30px;
+    border-right: 1px solid #bbb;
+    transform:translate(300%,-250%);
+}
+  
+ 
+
